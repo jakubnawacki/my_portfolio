@@ -1,0 +1,30 @@
+#project1 {
+  border-radius: 20px;
+  border: 2px solid #ffc107;
+}
+#project2 {
+  border-radius: 20px;
+  border: 2px solid #ffc107;
+}
+#project3 {
+  border-radius: 20px;
+  border: 2px solid #ffc107;
+  width: 503.33px;
+  height: 640.16px;
+}
+#project4 {
+  border-radius: 20px;
+  border: 2px solid #ffc107;
+}
+#project5 {
+  border-radius: 20px;
+  border: 2px solid #ffc107;
+}
+
+#button_projects {
+  background-color: #ffc107;
+  color: black;
+  border-radius: 5px;
+  border: black;
+  font-weight: bold;
+}
