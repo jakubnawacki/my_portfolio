@@ -1,27 +1,55 @@
 #project1 {
   border-radius: 20px;
   border: 2px solid #ffc107;
+  height: 561.5px;
 }
 #project2 {
   border-radius: 20px;
   border: 2px solid #ffc107;
+  height: 561.5px;
 }
 #project3 {
   border-radius: 20px;
   border: 2px solid #ffc107;
-  width: 503.33px;
-  height: 640.16px;
+  height: 561.5px;
+  width: 450px;
 }
 #project4 {
   border-radius: 20px;
   border: 2px solid #ffc107;
+  height: 561.5px;
 }
 #project5 {
   border-radius: 20px;
   border: 2px solid #ffc107;
+  height: 561.5px;
 }
 
 #button_projects {
+  background-color: #ffc107;
+  color: black;
+  border-radius: 5px;
+  border: black;
+  font-weight: bold;
+}
+
+#button_send {
+  background-color: #ffc107;
+  color: black;
+  border-radius: 5px;
+  border: black;
+  font-weight: bold;
+}
+
+#form4Example {
+  background-color: #ffc107;
+  color: black;
+  border-radius: 5px;
+  border: black;
+  font-weight: bold;
+}
+
+#cv_button {
   background-color: #ffc107;
   color: black;
   border-radius: 5px;

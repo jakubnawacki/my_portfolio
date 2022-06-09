@@ -40,18 +40,18 @@
                 <a
                   class="nav-link active text-warning"
                   aria-current="page"
-                  href="#"
+                  href="#about"
                   >About</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-warning" href="#">Skills</a>
+                <a class="nav-link text-warning" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-warning" href="#">Projects</a>
+                <a class="nav-link text-warning" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-warning" href="#">Contact</a>
+                <a class="nav-link text-warning" href="#contact">Contact</a>
               </li>
             </ul>
             <span class="navbar-text"
@@ -72,7 +72,7 @@
             <div class="text-white">
               <h1 class="mb-3">Jakub Nawacki</h1>
               <h4 class="mb-3">Junior Web Developer</h4>
-              <a class="btn btn-outline-light btn-lg" href="#!" role="button"
+              <a class="btn btn-outline-light btn-lg" id="cv_button" href="./components/CV_JakubN.png" role="button"
                 >CV</a
               >
             </div>
@@ -91,8 +91,8 @@
     </header>
     <main class="row bg-dark text-light">
       <!--ABout Me-->
-      <section>
-        <div class="container mt-1 pt-5">
+      <section id="about">
+        <div class="container mt-1 pt-5" id="middle">
           <p>
             <h1 class="fw-bold text-warning text-center">My story <i class="bi bi-book"></i></h1>
           </p>
@@ -139,7 +139,7 @@
       </section>
 <!--Skills-->
 <hr class="my-5">
-<section class="text-center">
+<section id="skills"class="text-center">
   <h1 class="fw-bold text-warning text-center mb-5">Skills <i class="bi bi-graph-up-arrow text-warning"></i></h1>
   <div class="row">
     <div class="col-md-6">
@@ -240,16 +240,16 @@
   </div>
 </section>
 <hr class="my-5">
-<section>
+<section id="projects" class="mt-5 pt-5 justify-content-center">
   <h1 class="fw-bold text-warning text-center mb-5"><i class="bi bi-arrow-down-circle-fill text-warning"></i> My Projects <i class="bi bi-arrow-down-circle-fill text-warning"></i></h1>
-  <div class="row">
+  <div class="row justify-content-center mt-5 pt-5">
     <div class="col-lg-4 col-md-6">
       <div class="card bg-dark">
         <div class="bg-image hover-overlay ripple justify-content-center">
           <img src="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80" class="img-fluid" id="project1"/>
          
         </div>
-        <div class="card-body text-center">
+        <div class="card-body">
           <h5 class="card-title">Weather App</h5>
           <p class="card-text">Simple App based on API, wrtitten with JS, html, css</p>
           <a href="#!" class="btn btn-primary" id="button_projects">See now</a>
@@ -264,7 +264,7 @@
             <div class="mask"></div>
           </a>
         </div>
-        <div class="card-body text-center">
+        <div class="card-body">
           <h5 class="card-title">Webiste</h5>
           <p class="card-text">My first website built with Bootstrap 5</p>
           <a href="#!" class="btn btn-primary"id="button_projects">See now</a>
@@ -279,7 +279,7 @@
             <div class="mask"></div>
           </a>
         </div>
-        <div class="card-body text-center">
+        <div class="card-body">
           <h5 class="card-title">Budget App</h5>
           <p class="card-text">App which can show our home expenses & wallet balance</p>
           <a href="#!" class="btn btn-primary"id="button_projects">See now</a>
@@ -287,7 +287,7 @@
       </div>
      </div>
   </div>
-  <div class="row justify-content-evenly">
+  <div class="row mt-5 pt-5 justify-content-evenly">
     <div class="col-lg-4 col-md-6">
       <div class="card bg-dark">
         <div class="bg-image hover-overlay ripple">
@@ -296,7 +296,7 @@
             <div class="mask"></div>
           </a>
         </div>
-        <div class="card-body text-center">
+        <div class="card-body">
           <h5 class="card-title">Trading platform</h5>
           <p class="card-text">Webiste which allows users to take a look on trading prices</p>
           <a href="#!" class="btn btn-primary"id="button_projects">See now</a>
@@ -304,20 +304,56 @@
       </div>
      </div>
     <div class="col-lg-4 col-md-6">
-      <div class="card bg-dark">
+      <div class="card bg-dark justify-content-center">
         <div class="bg-image hover-overlay ripple">
           <img src="/components/marketplace.jpg" class="img-fluid" id="project5"/>
           <a href="#!">
             <div class="mask"></div>
           </a>
         </div>
-        <div class="card-body text-center">
+        <div class="card-body">
           <h5 class="card-title">NFT Marketplace</h5>
           <p class="card-text">Platform where user can buy virtual-assets</p>
           <a href="#!" class="btn btn-primary"id="button_projects">See now</a>
         </div>
       </div>
   </div>
+</section>
+<hr class="my-5">
+<section id="contact">
+  <h1 class="fw-bold text-warning text-center mb-5">Contact <i class="bi bi-telephone-inbound-fill text-warning fs-3"></i></i></h1>
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-6">
+      <form action="https://formsubmit.co/jakubnawacki@gmail.com" method="POST">
+        <div class="form-outline mb-4">
+          <input type="text" id="form4Example1" class="form-control" />
+          <label class="form-label" for="form4Example1">Name</label>
+        </div>
+        <div class="form-outline mb-4">
+          <input type="email" id="form4Example2" class="form-control" />
+          <input type="hidden" name="_next" value="https://jakubnawacki.github.io/Thanks_for_your_email/">
+          <label class="form-label" for="form4Example2">Email address</label>
+        </div>
+        <div class="form-outline mb-4">
+          <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+          <label class="form-label" for="form4Example3">Message</label>
+        </div>
+        <div class="form-check d-flex justify-content-center mb-4">
+          <input class="form-check-input me-2" type="checkbox" value="" id="form4Example" checked />
+          <label class="form-check-label" for="form4Example4">
+            Send me a copy of this message
+          </label>
+        </div>
+        <div class="d-flex justify-content-center">
+        <button type="submit" id="button_send"class="btn btn-primary d-flex justify-content-center">Send</button>
+        </div>
+      </form>
+    </div>
+
+
+  </div>
+
+
 </section>
       
     </main>
