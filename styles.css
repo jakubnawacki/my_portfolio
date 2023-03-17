@@ -56,3 +56,15 @@
   border: black;
   font-weight: bold;
 }
+
+button.navbar-toggler {
+  height: 30px;
+  width: 30px;
+  border: 1px solid;
+  color: #ffc107;
+}
+
+.rounded-circle {
+  opacity: 0.7;
+}
+
